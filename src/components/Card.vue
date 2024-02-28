@@ -26,7 +26,7 @@ const visibleFavoriteBtn = Boolean(props.onClickAdd);
           alt="like 1"
           class="absolute top-4 lg:top-8 left-4 lg:left-8"
         />
-        <img class="w-full h-36" :src="imageUrl" alt="snicker" />
+        <img class="w-full h-36 object-contain" :src="imageUrl" alt="snicker" />
         <p class="mt-3">{{ title }}</p>
       </div>
       <div class="flex justify-between mt-5">
